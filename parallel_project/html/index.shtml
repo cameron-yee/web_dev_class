@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<!--indexSSI.html-->
+<html lang="en">
+<head>
+	<!--#include file="partials/header.html" -->
+</head>
+<body>
+	<!--#include file="pages/home.html" -->
+	<!--#include file="partials/footer.html" -->
+</body>
+</html>
