@@ -1,0 +1,26 @@
+.background {
+	background-image: url(../images/home-background.jpg);
+}
+
+p {
+	color: green;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.top-menu {
+    background-color: rgba(0,0,0,.5);
+    padding: .5rem;
+}
+
+.logo {
+    background-color: rgba(255, 0, 0, .5);
+    color: black;
+}
+
+#map {
+    width: 400px;
+    height: 400px;
+}
