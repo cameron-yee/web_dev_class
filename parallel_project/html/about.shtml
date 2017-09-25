@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--#include virtual="partials/header.html" -->
+</head>
+<body class="about-background">
+    <!--#include virtual="partials/topmenu.html" -->
+    <!--#include virtual="pages/about.html" -->
+    <!--#include virtual="partials/footer.html" -->
+</body>
+</html>

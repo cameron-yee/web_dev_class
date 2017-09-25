@@ -2,8 +2,16 @@
 	background-image: url(../images/home-background.jpg);
 }
 
+.about-background {
+    background-color: black;
+}
+
+.text-ribbon {
+    background-color: rgba(0,0,0,.8);
+}
+
 p {
-	color: green;
+	color: white;
 }
 
 .selected {
@@ -11,16 +19,28 @@ p {
 }
 
 .top-menu {
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(255,72,196, 1);
     padding: .5rem;
 }
 
 .logo {
-    background-color: rgba(255, 0, 0, .5);
+    background-color: rgba(43,209,252,1);
     color: black;
 }
 
 #map {
-    width: 400px;
-    height: 400px;
+    height: 700px;
+    width: 700px;
+}
+
+#footer {
+    bottom: 0;
+    left: .5rem;
+    margin-top: 2rem;
+    top: 90%;
+    width: 100%;
+}
+
+h2 {
+    color: white;
 }

@@ -4,6 +4,7 @@
 	<!--#include file="partials/header.html" -->
 </head>
 <body class="background">
+    <!--#include file="partials/topmenu.html" -->
 	<!--#include file="pages/home.html" -->
 	<!--#include file="partials/footer.html" -->
 </body>
