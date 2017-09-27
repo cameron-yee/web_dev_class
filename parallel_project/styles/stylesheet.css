@@ -6,41 +6,64 @@
     background-color: black;
 }
 
-.text-ribbon {
-    background-color: rgba(0,0,0,.8);
+.top-background {
+    background-color: rgba(200,0,77,1);
 }
 
-p {
-	color: white;
+.text-ribbon {
+    background-color: rgba(0,138,138,.6);
 }
 
 .selected {
     font-weight: bold;
 }
 
-.top-menu {
-    background-color: rgba(255,72,196, 1);
-    padding: .5rem;
+.flex-container {
+    margin-left: 15px;
 }
 
-.logo {
-    background-color: rgba(43,209,252,1);
-    color: black;
+.top-menu {
+    background-color: rgba(200,0,77,1);
+    padding: 40px;
 }
+ 
+.logo {
+    background-color: rgba(0,138,138,1);
+    border: 3px solid yellow;
+    color: yellow;
+    margin: 25px 15px;
+    padding: 5px;
+    outline: 3px solid red;
+    width: 410px;
+}
+
 
 #map {
+    border-radius: 5px;
     height: 700px;
     width: 700px;
+    margin: 2rem;
 }
 
 #footer {
+    background-color: rgba(0,138,138,1);
     bottom: 0;
-    left: .5rem;
-    margin-top: 2rem;
+    left: 1rem;
+	padding-left: 1rem;
     top: 90%;
     width: 100%;
 }
 
-h2 {
+h2, h4 {
     color: white;
+}
+
+p {
+	color: white;
+	font-size: 16pt;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
 }
