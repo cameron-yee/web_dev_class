@@ -37,6 +37,13 @@
     width: 410px;
 }
 
+.logo:hover {
+    background-color: yellow;
+    border: 3px solid red;
+    color: rgba(0,138,138,1);
+    outline: 3px solid yellow;
+}
+
 
 #map {
     border-radius: 5px;
@@ -48,8 +55,9 @@
 #footer {
     background-color: rgba(0,138,138,1);
     bottom: 0;
-    left: 1rem;
-	padding-left: 1rem;
+    left: 0;
+    padding-left: 1rem;
+    /* position: absolute; */
     top: 90%;
     width: 100%;
 }
@@ -66,4 +74,22 @@ p {
 a {
     color: yellow;
     text-decoration: none;
+}
+
+.margin-adjust {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.menulink {
+    color: black;
+    font-size: 16pt;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none !important;
+}
+
+.menulink:hover {
+    color: white;
 }
