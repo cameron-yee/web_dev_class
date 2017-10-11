@@ -26,6 +26,12 @@
     background-color: rgba(200,0,77,1);
     padding: 40px;
 }
+
+.header {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
  
 .logo {
     background-color: rgba(0,138,138,1);
@@ -92,4 +98,8 @@ a {
 
 .menulink:hover {
     color: white;
+}
+
+.active {
+    color: yellow;
 }

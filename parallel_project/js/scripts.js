@@ -12,14 +12,9 @@ var initMap = function() {
 
 var activeBtn = function () {
     $(document).removeClass('active');
-    var pname = location.pathname.toString;
-    if (pname.includes('index')) {
-        $('#homebtn').addClass('active');
-    } else if (pname.includes('products')) {
-        $('#productbtn').addClass('active');
-    } else if (pname.includes('about')) {
-        $('#aboutbtn').addClass('active');
-    }
+    var pathname = window.location.pathname;
+    // var pname = url.substr(url.lastIndexOf('/') + 1);
+    $('.top-menu a[href="'+pathname+'"]').addClass('active');
 }
 
 $(document).ready(function () {
