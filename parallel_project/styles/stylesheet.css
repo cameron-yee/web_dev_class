@@ -59,20 +59,22 @@
 }
 
 #footer {
+    background-attachment: scroll;
     background-color: rgba(0,138,138,1);
+    background-position: 0% 0%;
     bottom: 0;
+    height: 60px;
     left: 0;
     padding-left: 1rem;
-    /* position: absolute; */
-    top: 90%;
+    position: fixed;
     width: 100%;
 }
 
-h2, h4 {
+h2, h3, h4 {
     color: white;
 }
 
-p {
+p, td, th {
 	color: white;
 	font-size: 16pt;
 }
@@ -100,6 +102,21 @@ a {
     color: white;
 }
 
+#time {
+    color: yellow;
+    font-size: 16pt;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .active {
     color: yellow;
+}
+
+.form-btn {
+    background-color: red;
+    color: black;
+    display: list-item;
+    margin-bottom: .25rem;
 }

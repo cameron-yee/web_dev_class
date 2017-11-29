@@ -12,9 +12,9 @@ var initMap = function() {
 
 var activeBtn = function () {
     $(document).removeClass('active');
-    var pathname = window.location.pathname;
-    // var pname = url.substr(url.lastIndexOf('/') + 1);
-    $('.top-menu a[href="'+pathname+'"]').addClass('active');
+    var fullPath = window.location.pathname;
+    // var currentPage = fullPath.substr(fullPath.lastIndexOf('/'));
+    $('.top-menu a[href="'+fullPath+'"]').addClass('active');
 }
 
 var rotatePictures = function () {
@@ -29,33 +29,41 @@ var rotatePictures = function () {
     switch(true) {
         case counter < 11: 
             document.getElementById('img-placeholder').setAttribute('src', images[0]);
-            console.log("case 1");
             break;
         case counter < 21: 
             document.getElementById('img-placeholder').setAttribute('src', images[1]);
-            console.log("case 2");
             break;
         case counter < 31: 
             document.getElementById('img-placeholder').setAttribute('src', images[2]);
-            console.log("case 3");
             break;
         case counter < 41: 
             document.getElementById('img-placeholder').setAttribute('src', images[3]);
-            console.log("case 4");
             break;
         case counter < 51: 
             document.getElementById('img-placeholder').setAttribute('src', images[4]);
-            console.log("case 5");
             break;
         case counter < 60: 
             document.getElementById('img-placeholder').setAttribute('src', images[5]);
-            console.log("case 6");
             break;
     }
 }
 
-$(document).ready(function () {
-    rotatePictures();
-    initMap();
+var time = function() {
+    var h = new Date().getHours().toString();
+    var m = new Date().getMinutes().toString();
+    var s = new Date().getSeconds().toString();
+
+    var timeElement = document.getElementById('time');
+    timeElement.textContent = h + ":" + m + ":" + s;
+}
+
+window.onload = function() {
+    var fullPath = window.location.pathname;
+    var currentPage = fullPath.substr(fullPath.lastIndexOf('/'));
+    if(currentPage === "/index.php") {
+        initMap();
+        var pictures = window.setInterval(rotatePictures, 1000);
+    }
+    var setTime = window.setInterval(time, 1000);
     activeBtn();
-});
+};

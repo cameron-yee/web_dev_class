@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <?php
+        include("../partials/header.html");
+    ?>
     <!--#include virtual="../partials/header.html" -->
 </head>
 <body class="about-background">
+    <?php
+        include("../partials/topmenu.php");
+    ?>
     <!--#include virtual="../partials/topmenu.html" -->
     <div id="about" class="container-fluid">
         <div class="row margin-adjust">
@@ -17,6 +23,9 @@
             <p>Custom Geometry:  A bike should be a perfect fit for its rider.  That is why we highly recommend building bike frames to fit each specific rider.  Custom geometry allows a rider to optimize each aspect of their bike for their specific needs and wants.</p>
         </div>
     </div>
+    <?php
+        include("../partials/footer.html");
+    ?>
     <!--#include virtual="../partials/footer.html" -->
 </body>
 </html>
