@@ -11,7 +11,7 @@
 	?>
     <main class="Feedback">
        <h4> Feedback form....Let us know what you think</h4>
-      <form id="contactForm" action="../php/feedbackFormProcess.php" method="post">
+      <form id="contactForm" action="/~cyee/php/feedbackFormProcess.php" method="post">
         <table>
           <tr>
             <td>Salutation:</td>

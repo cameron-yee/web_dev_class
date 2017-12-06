@@ -11,19 +11,19 @@
 	?>
     <main class="Feedback">
       <h4>Register</h4>
-      <form id="contactForm" action="php/registrationFormResponse.php" method="post">
+      <form id="contactForm" action="128.198.162.204/~cyee/php/registrationFormResponse.php" method="post">
         <table>
           <tr>
-            <td>First Name</td>
-            <td><input type="text" name="firstName" size="40"></td>
+            <td>Customer Number</td>
+            <td><input type="text" name="custnum" size="40"></td>
           </tr>
           <tr>
-            <td>Last Name</td>
-            <td><input type="text" name="lastName" size="40"></td>
+            <td>Customer Name</td>
+            <td><input type="text" name="name" size="40"></td>
           </tr>
           <tr>
-            <td>Street</td>
-            <td><input type="text" name="street" size="40"></td>
+            <td>Street Address</td>
+            <td><input type="text" name="address" size="40"></td>
           </tr>
           <tr>
             <td>City</td>

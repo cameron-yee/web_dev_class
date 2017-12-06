@@ -15,12 +15,3 @@
         </div>
     </div>
 </div>
-
-<!--<div class="logo">
-    <h1>Cam Bam's Bike Shop</h1>
-</div>
-<div class="top-menu">
-    <a id="homebtn" type="button" class="btn btn-danger" href="http://128.198.162.204/~cyee/index.shtml">Home</a>
-    <a id="productsbtn" type="button" class="btn btn-danger" href="">Products</a>
-    <a id="aboutbtn" type="button" class="btn btn-danger" href="http://128.198.162.204/~cyee/about.shtml">About</a>
-</div>-->

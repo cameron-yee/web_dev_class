@@ -15,7 +15,7 @@
     <main>
       <article class="Registration">
         <?php
-        include("../php/registrationFormProcess.php");
+        include(__DIR__."/php/registrationFormProcess.php");
         ?>
       </article>
     </main>

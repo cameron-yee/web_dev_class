@@ -7,9 +7,9 @@ must be included from a "safe" (but readable) location
 which is outside public_html, for security reasons.
 */
 
-include("../../../database.inc");
+require("../database.inc");
 
-if (!isset($dbLocation))
+if (!isset($dblocation))
 {
     echo "Database location is missing.<br>
           Connection script now terminating.";
@@ -37,7 +37,7 @@ if (!isset($dbName))
     exit(0);
 }
 
-$db = mysqli_connect($dbLocation,
+$db = mysqli_connect($dblocation,
                      $root,
                      $root,
                      $dbName);
